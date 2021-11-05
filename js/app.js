@@ -1,9 +1,9 @@
 new Vue ({
     el: '#vue-app',
     data: {
-            SH1: true,
+            SH1: false,
             SH2: false,
-            SH3: false,
+            SH3: true,
             SH4: false
 
                        
