@@ -1,1 +1,225 @@
+*{  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+@media screen and (min-width: 1024px) {
+
+    .mobileScreen{display: none;}
+
+    #desktopScreen{position: relative;
+                    height:100vh ;
+                    width: 100vw;
+                    background-color:none ;
+                    
+                }
+
+    button{position: absolute;
+            width: 24.2vw;
+            height: 6.8vh;
+            left: 56.7vw;
+            top: 82.9vh;
+            background: none;}
+
+        
+    .sideBar{position: absolute;
+            width: 10vw;
+            height: 100vh;
+            left: 0vw;
+            top: 0vh;
+            background: none ;}
+
+
+            
+   
+  
+
+
+                #desktopScreen .bgcolor1 {background-color:#0392BF; width: inherit; height: inherit; }
+                #desktopScreen .bgcolor1 button {background:#ED48BA;}
+                #desktopScreen .bgcolor1 .sideBar{background: #B3D4E0;}
+
+                #desktopScreen .bgcolor2 {background-color:#ED48BA; width: inherit; height: inherit; }
+                #desktopScreen .bgcolor2 button {background:#0392BF;}
+                #desktopScreen .bgcolor2 .sideBar{background: #B3D4E0;}
+
+                #desktopScreen .bgcolor3 {background-color:#FBEC06; width: inherit; height: inherit; }
+                #desktopScreen .bgcolor3 button {background:#0392BF;}
+                #desktopScreen .bgcolor3 .sideBar{background: #B3D4E0;}
+
+                #desktopScreen .bgcolor4 {background-color:#B3D4E0; width: inherit; height: inherit; }
+                #desktopScreen .bgcolor4 button {background:#ED48BA;}
+                #desktopScreen .bgcolor4 .sideBar{background:#0392BF;}
+               
+
+              
+
+    .bgcolorSwitch{display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        position: absolute;
+        width: 20.6vw;
+        height: 4.9vh;
+        left: 66.7vw;
+        top: 61.23vh;
+        }
+
+    .bgcolorSwitch a{border-radius: 50px;}
+
+    .code1{position: static;
+        width: 50px;
+        height: 50px;
+        left: 0px;
+        top: 0px;
+        background: #0392BF;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 32px;}
+
+    .code2{position: static;
+        width: 50px;
+        height: 50px;
+        left: 82px;
+        top: 0px;
+        background: #ED48BA; 
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 32px;}
+
+    .code3{position: static;
+        width: 50px;
+        height: 50px;
+        left: 164px;
+        top: 0px;
+        background: #FBEC06;
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+        margin: 0px 32px;}
+
+    .code4{position: static;
+        width: 50px;
+        height: 50px;
+        left: 246px;
+        top: 0px;
+        background: #B3D4E0; 
+        flex: none;
+        order: 3;
+        flex-grow: 0;
+        margin: 0px 32px;}
+ 
+
+    #desktopScreen .bgcolor1 .code1{border: 3px solid #FFFFFF;}
+    #desktopScreen .bgcolor2 .code2{border: 3px solid #FFFFFF;}
+    #desktopScreen .bgcolor3 .code3{border: 3px solid #FFFFFF;}
+    #desktopScreen .bgcolor4 .code4{border: 3px solid #FFFFFF;}
+        
+        
+
+}
+
+
+
+
+@media only screen and (min-device-width: 360px) and (orientation: portrait){
+    .desktopScreen{display: none;}
+
+
+    .mobileScreen{position: relative;
+                    height:100vh ;
+                    width: 100vw;
+                    background: #0392BF;}
+
+    .modal{display: flex;
+        justify-content: center;
+        position: absolute;
+        width: 100vw;
+        height: 16.4vh;
+        left: 0vw;
+        top: 83.6vh;
+        
+        background: #EFFBFB;
+        border-radius: 25px 25px 0px 0px;}
+    
+    .modal a {position: absolute;
+        width: 14.2vw;
+        height: 1.1vh;
+        top: 2.94vh;
+        background: #0392BF;
+        border-radius: 5px;}
+
+    .bgcolorSwitch{display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        position: absolute;
+        width: 4.7vw;
+        height: 15.8vh;
+        left: 86.1vw;
+        top: 23.75vh;
+    
+    }
+
+    .code1{position: static;
+        width: 17px;
+        height: 17px;
+        left: 0px;
+        top: 0px;
+        background: #0392BF;
+        box-shadow: 0px 0px 20px rgba(12, 12, 12, 0.4);
+        border-radius: 3px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 11px 0px;}
+
+    .code2{position: static;
+        width: 17px;
+        height: 17px;
+        left: 0px;
+        top: 28px;
+        background: #FBEC06;
+        border-radius: 3px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 11px 0px;}
+
+    .code3{position: static;
+        width: 17px;
+        height: 17px;
+        left: 0px;
+        top: 56px;
+        background: #B3D4E0;
+        border-radius: 3px;
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+        margin: 11px 0px;}
+
+
+    .code4{position: static;
+        width: 17px;
+        height: 17px;
+        left: 0px;
+        top: 84px;
+        background: #ED48BA;
+        border-radius: 3px;
+        flex: none;
+        order: 3;
+        flex-grow: 0;
+        margin: 11px 0px;}
+
+
+
+}
+
+
+
 
