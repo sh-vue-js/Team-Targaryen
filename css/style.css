@@ -13,7 +13,7 @@
     #desktopScreen{position: relative;
                     height:100vh ;
                     width: 100vw;
-                    background-color:none ;
+                    background-color:#0392BF;
                     
                     
                 }
@@ -42,7 +42,7 @@
   
 
 
-                #desktopScreen .bgcolor1 {background-color:#0392BF; width: inherit; height: inherit; }
+                /*#desktopScreen .bgcolor1 {background-color:#0392BF; width: inherit; height: inherit; }
                 #desktopScreen .bgcolor1 .btn {background:#ED48BA;}
                 #desktopScreen .bgcolor1 .sideBar{background: #B3D4E0;}
 
@@ -56,7 +56,7 @@
 
                 #desktopScreen .bgcolor4 {background-color:#B3D4E0; width: inherit; height: inherit; }
                 #desktopScreen .bgcolor4 .btn {background:#ED48BA;}
-                #desktopScreen .bgcolor4 .sideBar{background:#0392BF;}
+                #desktopScreen .bgcolor4 .sideBar{background:#0392BF;}*/
                
 
               

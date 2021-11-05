@@ -12,8 +12,7 @@
  
     
 <div id="desktop-view">
-<div id="desktopScreen">
-<div  v-bind:class="backChange">
+<div id="desktopScreen" ref="body">
 
 
 
@@ -27,16 +26,16 @@
 
 
     <div class="bgcolorSwitch">
-        <a v-on:click=" " class="code1" href=""></a>
-        <a v-on:click=" " class="code2" href=""></a>
-        <a class="code3" href=""></a>
-        <a class="code4" href=""></a>
+        <a v-on:click="changeToColor1" class="code1" href="#"></a>
+        <a v-on:click="changeToColor2" class="code2" href="#"></a>
+        <a v-on:click="changeToColor3" class="code3" href="#"></a>
+        <a v-on:click="changeToColor4" class="code4" href="#"></a>
     </div>
 
     <div class="btn"> yeske </div>
         
 
-</div>
+
 
 </div> 
 
