@@ -1,9 +1,9 @@
 new Vue ({
-    el: '#vue-app',
+    el: '#desktop-view',
     data: {
-            SH1: false,
+            SH1: true,
             SH2: false,
-            SH3: true,
+            SH3: false,
             SH4: false
 
                        
@@ -26,6 +26,36 @@ new Vue ({
              bgcolor4: this.SH4
          }
      }
+
+
+    }
+
+});
+
+
+
+
+
+
+
+new Vue ({
+    el: '#mobile-view',
+    data: {
+           
+
+                       
+    },
+
+    methods: {
+        
+     
+        
+
+    },
+
+    computed: {
+
+    
 
 
     }

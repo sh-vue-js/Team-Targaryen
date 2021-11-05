@@ -4,18 +4,24 @@
 }
 
 
+
+/*DEKTOP SCREEN*/
 @media screen and (min-width: 1024px) {
 
-    .mobileScreen{display: none;}
+    .mobileScreen{display: none;}    
 
     #desktopScreen{position: relative;
                     height:100vh ;
                     width: 100vw;
                     background-color:none ;
                     
+                    
                 }
 
-    button{position: absolute;
+    .btn{position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             width: 24.2vw;
             height: 6.8vh;
             left: 56.7vw;
@@ -37,19 +43,19 @@
 
 
                 #desktopScreen .bgcolor1 {background-color:#0392BF; width: inherit; height: inherit; }
-                #desktopScreen .bgcolor1 button {background:#ED48BA;}
+                #desktopScreen .bgcolor1 .btn {background:#ED48BA;}
                 #desktopScreen .bgcolor1 .sideBar{background: #B3D4E0;}
 
                 #desktopScreen .bgcolor2 {background-color:#ED48BA; width: inherit; height: inherit; }
-                #desktopScreen .bgcolor2 button {background:#0392BF;}
+                #desktopScreen .bgcolor2 .btn {background:#0392BF;}
                 #desktopScreen .bgcolor2 .sideBar{background: #B3D4E0;}
 
                 #desktopScreen .bgcolor3 {background-color:#FBEC06; width: inherit; height: inherit; }
-                #desktopScreen .bgcolor3 button {background:#0392BF;}
+                #desktopScreen .bgcolor3 .btn {background:#0392BF;}
                 #desktopScreen .bgcolor3 .sideBar{background: #B3D4E0;}
 
                 #desktopScreen .bgcolor4 {background-color:#B3D4E0; width: inherit; height: inherit; }
-                #desktopScreen .bgcolor4 button {background:#ED48BA;}
+                #desktopScreen .bgcolor4 .btn {background:#ED48BA;}
                 #desktopScreen .bgcolor4 .sideBar{background:#0392BF;}
                
 
@@ -126,9 +132,10 @@
 
 
 
+/*MOBILE SCREEN*/
 @media only screen and (min-device-width: 360px) and (orientation: portrait){
-    .desktopScreen{display: none;}
-
+    #desktopScreen{display: none;}
+     
 
     .mobileScreen{position: relative;
                     height:100vh ;
