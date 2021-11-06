@@ -51,6 +51,7 @@ aside {
     align-items: center;
     justify-content: center;
     place-items: center;
+    cursor: pointer;
 }
 #outer {
     height: 1.5rem;
@@ -84,8 +85,9 @@ aside {
     display: block;
     display: flex;
     justify-content: center;
-    margin: 0.5rem 0;
-    color: #0392BF;
+    margin: 0.9rem 0;
+    color: rgba(3, 146, 191, 0.6);
+    cursor: pointer;
 }
 nav {
     display: flex;
@@ -124,6 +126,7 @@ nav ul li:hover::after {
     position: absolute;
     left: 10%;
     z-index: -1;
+    transition: transform 1s ease;
 }
 #product-details {
     width: 40%;
@@ -232,6 +235,7 @@ select:hover {
 }
 option {
     color: #000;
+    transition: transform 0.6s ease;
 }
 button {
     outline: none;
