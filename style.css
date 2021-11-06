@@ -1,0 +1,48 @@
+#burger{
+    position: fixed;
+    right: 0;
+    top: 0;
+    color: white;
+    background: linear-gradient(45deg, #000000 10%, hsl(202, 89%, 39%));;
+    font-size: 32px;
+    padding: 16px 16px 32px 32px;
+    border-radius: 0% 0% 0% 100%;
+    transition: 1s;
+    cursor: pointer;
+  }
+  body{
+      background: #83a2f5da;
+  }
+  
+  #quit{
+    position: fixed;
+    top: 0;
+    color: white;
+    font-size: 32px;
+    padding: 16px;
+    display: none;
+    cursor: pointer;
+  }
+  #links{
+    display: none;
+    flex-direction: column;
+    width: 100vw;
+    height: 50vh;
+    padding: 25vh 0;
+    justify-content: space-around;
+  }
+  #links :hover{
+    background: #068dfc;
+    color: #f8f9fa;
+    transition: 0.3s ease;
+    border-radius: 5px;
+  }
+  #links a{
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 2em;
+    font-family: 'Roboto';
+    z-index: 10;
+  }
