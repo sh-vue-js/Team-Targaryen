@@ -26,7 +26,7 @@
             height: 6.8vh;
             left: 56.7vw;
             top: 82.9vh;
-            background: none;}
+            background-color: #ED48BA;}
 
         
     .sideBar{position: absolute;
@@ -34,7 +34,22 @@
             height: 100vh;
             left: 0vw;
             top: 0vh;
-            background: none ;}
+            display: flex;
+            justify-content: center;
+            
+            background-color: #B3D4E0 ;}
+
+
+            .projecticon{position: absolute; 
+                        width: 6.1vw;
+                        height: 20vh;    
+                        left: 1.94vw;
+                        height:3.3bh;
+
+                            }
+
+
+            #iconBg{fill:#ED48BA;}
 
 
             
@@ -73,7 +88,7 @@
         top: 61.23vh;
         }
 
-    .bgcolorSwitch a{border-radius: 50px;}
+    .bgcolorSwitch a{border-radius: 50px; box-shadow: 0px 0px 20px rgba(12, 12, 12, 0.2);}
 
     .code1{position: static;
         width: 50px;
@@ -85,6 +100,8 @@
         order: 0;
         flex-grow: 0;
         margin: 0px 32px;}
+
+   
 
     .code2{position: static;
         width: 50px;
@@ -140,7 +157,7 @@
     .mobileScreen{position: relative;
                     height:100vh ;
                     width: 100vw;
-                    background: #0392BF;}
+                    background-color: #0392BF;}
 
     .modal{display: flex;
         justify-content: center;
@@ -157,7 +174,7 @@
         width: 14.2vw;
         height: 1.1vh;
         top: 2.94vh;
-        background: #0392BF;
+        background-color: #0392BF;
         border-radius: 5px;}
 
     .bgcolorSwitch{display: flex;
@@ -192,6 +209,7 @@
         left: 0px;
         top: 28px;
         background: #FBEC06;
+        box-shadow: 0px 0px 20px rgba(12, 12, 12, 0.4);
         border-radius: 3px;
         flex: none;
         order: 1;
@@ -204,6 +222,7 @@
         left: 0px;
         top: 56px;
         background: #B3D4E0;
+        box-shadow: 0px 0px 20px rgba(12, 12, 12, 0.4);
         border-radius: 3px;
         flex: none;
         order: 2;
@@ -217,6 +236,7 @@
         left: 0px;
         top: 84px;
         background: #ED48BA;
+        box-shadow: 0px 0px 20px rgba(12, 12, 12, 0.4);
         border-radius: 3px;
         flex: none;
         order: 3;
