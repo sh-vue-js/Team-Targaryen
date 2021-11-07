@@ -157,7 +157,9 @@
         display: block;
     }
     #desktopScreen{display: none;}
-     
+    #skate-1{
+        width: 250px;
+    }
 
     .mobileScreen{position: relative;
                     height:100vh ;
