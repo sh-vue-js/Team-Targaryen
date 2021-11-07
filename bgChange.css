@@ -36,7 +36,8 @@
             left: 0vw;
             top: 0vh;
             display: flex;
-            justify-content: center;
+            flex-direction: column;
+            /* justify-content: center; */
             
             background-color: #B3D4E0 ;}
 
@@ -152,6 +153,9 @@
 
 /*MOBILE SCREEN*/
 @media only screen and (min-device-width: 360px) and (orientation: portrait){
+    .mobile{
+        display: block;
+    }
     #desktopScreen{display: none;}
      
 
@@ -164,7 +168,8 @@
         justify-content: center;
         position: absolute;
         width: 100vw;
-        height: 16.4vh;
+        height: 100vh;
+        color: #0392BF;
         left: 0vw;
         top: 83.6vh;
         

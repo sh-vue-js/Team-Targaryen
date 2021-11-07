@@ -1,4 +1,9 @@
+.mobile{
+  display: none;
+}
+
 #burger{
+    display: none;
     position: fixed;
     right: 0;
     top: 0;
@@ -45,4 +50,13 @@
     font-size: 2em;
     font-family: 'Roboto';
     z-index: 10;
+  }
+
+  @media (max-width: 760px) {
+    .desktop{
+      display: none;
+    }
+    .mobile{
+      display: flex;
+    }
   }

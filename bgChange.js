@@ -73,12 +73,6 @@ new Vue ({
 
 });
 
-
-
-
-
-
-
 new Vue ({
     el: '#mobile-view',
     data: {
@@ -113,11 +107,6 @@ new Vue ({
         changeToColor4(){
             this.backgroundChange(this.bgColor4)
         },
-    
-        
-     
-        
-
     },
 
     computed: {
