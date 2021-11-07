@@ -3,20 +3,19 @@
         overflow: hidden;
         display: flex;
         flex-direction: column;
-        
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
     }
     .wrapper{
         display: flex;
         flex-wrap: wrap;
-        height: 640px;
-        width: 360px;
+        height: 100vh;
+        width: 100%;
         position: relative;
-        left: 50px;
-        top: 50px;
-        border-radius: 10px;
         background-color: #0392bf;
         overflow: hidden;
-        z-index: -5;
     }
     i {
         color: #effbfb;
@@ -24,69 +23,73 @@
     }
     .guard{
         margin: 20px;
-        width: 320px;
+        width: 100%;
         height: 640px;
     }
     .guard .nav {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        margin: 7px;
     }
     
     .image {
         margin-top: 20px;
-        width: 320px;
-        height: 250px;
+        width: 100%;
+        height: 320px;
+        display: grid;
+        grid-template-columns: 80% 15%;
+        column-gap: 10px;
     }
     .image .circle{
-        width: 200px;
-        height: 200px;
+        width: 100%;
+        height: 300px;
         position: relative;
         top: 6px;
-        left: 50px;
+        left: 6px;
     }
     .blob {
         position: absolute;
-        width: 379px;
-        height: 523px;
-        left: -78px;
-        top: -188px;
+        width: 190%;
+        height: 250%;
+        left: -98px;
+        top: -300px;
     }
-    span {
-        float: right;
+    li {
+        list-style: none;
         margin-bottom: 10px;
-        display: inline;
     }
-    span.color_blue {
+    
+    .color_blue {
         width: 17px;
         height: 17px;
         margin-right: 25px;
-        margin-top: -120px;
+        margin-top: 50px;
         border-radius: 4px;
         background-color: #0392bf;
         box-shadow:-2px -2px 20px #0c0c0cb7;
     }
-    span.color_yellow {
+    .color_yellow {
         width: 17px;
         height: 17px;
         margin-right: 25px;
-        margin-top: -90px;
+        margin-top: 10px;
         border-radius: 4px;
         background-color: #fbec06;
     }
-    span.color_grey {
+    .color_grey {
         width: 17px;
         height: 17px;
         margin-right: 25px;
-        margin-top: -60px;
+        margin-top: 6px;
         border-radius: 4px;
         background-color: #98b9c5;
     }
-    span.color_purple {
+    .color_purple {
         width: 17px;
         height: 17px;
         margin-right: 25px;
-        margin-top: -33px;
+        margin-top: 1px;
         border-radius: 4px;
         background-color: #ed48ba;
     }
@@ -112,12 +115,12 @@
     }
 
     .curve {
-        width: 360px;
+        width: 100%;
         position: absolute;
-        height: 145px;
+        height: 149px;
         background-color: #effbfb;
         left: 0px;
-        top: 470px;
+        top: 550px;
         border-radius: 25px 25px 0px 0px;
     }
     .line {
@@ -136,7 +139,7 @@
         line-height: 1.2;
         text-align: left;
         letter-spacing: 2px;
-        margin-left: 30px;
+        margin-left: 10px;
         margin-top: 50px;
         color: #98b9c5;
         text-transform: uppercase;
