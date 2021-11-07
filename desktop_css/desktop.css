@@ -126,7 +126,7 @@ nav ul li:hover::after {
     image-rendering: -webkit-optimize-contrast;
     height: 50vh;
     position: absolute;
-    left: 5%;
+    left: 3%;
     z-index: 1;
     transition: transform 1s ease;
 }
